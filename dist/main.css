@@ -1,0 +1,69 @@
+.inner-shadow-intensity-flat {
+  box-shadow: inset 10px 10px 20px 0px #f0f0f0, inset -10px -10px 20px 0px #f0f0f0;
+}
+
+.outer-shadow-intensity-flat {
+  box-shadow: 10px 10px 20px 0px #f0f0f0, -10px -10px 20px 0px #f0f0f0;
+}
+
+.inner-shadow-intensity-slim {
+  box-shadow: inset 10px 10px 20px 0px #cacaca, inset -10px -10px 20px 0px white;
+}
+
+.outer-shadow-intensity-slim {
+  box-shadow: 10px 10px 20px 0px #cacaca, -10px -10px 20px 0px white;
+}
+
+.inner-shadow-intensity-normal {
+  box-shadow: inset 10px 10px 20px 0px #a4a4a4, inset -10px -10px 20px 0px white;
+}
+
+.outer-shadow-intensity-normal {
+  box-shadow: 10px 10px 20px 0px #a4a4a4, -10px -10px 20px 0px white;
+}
+
+.inner-shadow-intensity-hard {
+  box-shadow: inset 10px 10px 20px 0px #7d7d7d, inset -10px -10px 20px 0px white;
+}
+
+.outer-shadow-intensity-hard {
+  box-shadow: 10px 10px 20px 0px #7d7d7d, -10px -10px 20px 0px white;
+}
+
+.inner-shadow-intensity-extra {
+  box-shadow: inset 10px 10px 20px 0px #575757, inset -10px -10px 20px 0px white;
+}
+
+.outer-shadow-intensity-extra {
+  box-shadow: 10px 10px 20px 0px #575757, -10px -10px 20px 0px white;
+}
+
+.bg-primary {
+  background-color: #7188B4;
+}
+
+.bg-secondary {
+  background-color: #CEC3B3;
+}
+
+.bg-success {
+  background-color: #65de20;
+}
+
+.bg-error {
+  background-color: #fe3e1c;
+}
+
+.bg-warning {
+  background-color: #ffc800;
+}
+
+.bg-info {
+  background-color: #00c8ff;
+}
+
+.bg-base {
+  background-color: #F0F0F0;
+}
+
+/*# sourceMappingURL=main.css.map */

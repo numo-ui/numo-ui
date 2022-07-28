@@ -1,0 +1,23 @@
+// Define prefix
+$prefix: plasmium- !important;
+$variables-prefix: $prefix  !important;
+
+// Neumorphism shadow setting
+$inner-shadow-h-offset: 10px;
+$inner-shadow-v-offset: 10px;
+$inner-shadow-blur:     20px;
+$inner-shadow-spread-radius: 0px;
+
+$outer-shadow-h-offset: 10px;
+$outer-shadow-v-offset: 10px;
+$outer-shadow-blur:     20px;
+$outer-shadow-spread-radius: 0px;
+
+// Colors
+$primary: #7188B4;
+$secondary: #CEC3B3;
+$success: #65de20;
+$error: #fe3e1c;
+$warning: #ffc800;
+$info: #00c8ff;
+$base: #F0F0F0;

@@ -1,0 +1,12 @@
+@each $name,$intensity in $shadow-intensity {
+  .inner-shadow-intensity-#{$name} {
+    box-shadow:
+      inset $inner-shadow-h-offset $inner-shadow-v-offset $inner-shadow-blur $inner-shadow-spread-radius darken($base, $intensity),
+      inset (-$inner-shadow-h-offset) (-$inner-shadow-v-offset) $inner-shadow-blur $inner-shadow-spread-radius lighten($base, $intensity);
+  }
+  .outer-shadow-intensity-#{$name} {
+    box-shadow:
+      $outer-shadow-h-offset $outer-shadow-v-offset $outer-shadow-blur $outer-shadow-spread-radius darken($base, $intensity),
+      (-$outer-shadow-h-offset) (-$outer-shadow-v-offset) $outer-shadow-blur $outer-shadow-spread-radius lighten($base, $intensity);
+  }
+}

@@ -1,0 +1,19 @@
+// Theme
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "error": $error,
+  "warning": $warning,
+  "info": $info,
+  "base": $base
+) !default;
+
+// Shadow intensity
+$shadow-intensity: (
+  "flat": 0,
+  "slim": 15%,
+  "normal": 30%,
+  "hard": 45%,
+  "extra": 60%
+)

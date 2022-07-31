@@ -1,41 +1,606 @@
-.inner-shadow-intensity-flat {
-  box-shadow: inset 10px 10px 20px 0px #f0f0f0, inset -10px -10px 20px 0px #f0f0f0;
+.neu-shadow {
+  box-shadow: 15px 15px 30px #a4a4a4, -15px -15px 30px white;
 }
 
-.outer-shadow-intensity-flat {
-  box-shadow: 10px 10px 20px 0px #f0f0f0, -10px -10px 20px 0px #f0f0f0;
+.neu-shadow.pressed.i-lighter.d-closer.dir-top-left {
+  box-shadow: inset 5px 5px 10px #f0f0f0, inset -5px -5px 10px #f0f0f0;
 }
-
-.inner-shadow-intensity-slim {
-  box-shadow: inset 10px 10px 20px 0px #cacaca, inset -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-closer.dir-top-right {
+  box-shadow: inset -5px 5px 10px #f0f0f0, inset 5px -5px 10px #f0f0f0;
 }
-
-.outer-shadow-intensity-slim {
-  box-shadow: 10px 10px 20px 0px #cacaca, -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-closer.dir-bottom-left {
+  box-shadow: inset 5px -5px 10px #f0f0f0, inset -5px 5px 10px #f0f0f0;
 }
-
-.inner-shadow-intensity-normal {
-  box-shadow: inset 10px 10px 20px 0px #a4a4a4, inset -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-closer.dir-bottom-right {
+  box-shadow: inset -5px -5px 10px #f0f0f0, inset 5px 5px 10px #f0f0f0;
 }
-
-.outer-shadow-intensity-normal {
-  box-shadow: 10px 10px 20px 0px #a4a4a4, -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-close.dir-top-left {
+  box-shadow: inset 10px 10px 20px #f0f0f0, inset -10px -10px 20px #f0f0f0;
 }
-
-.inner-shadow-intensity-hard {
-  box-shadow: inset 10px 10px 20px 0px #7d7d7d, inset -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-close.dir-top-right {
+  box-shadow: inset -10px 10px 20px #f0f0f0, inset 10px -10px 20px #f0f0f0;
 }
-
-.outer-shadow-intensity-hard {
-  box-shadow: 10px 10px 20px 0px #7d7d7d, -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-close.dir-bottom-left {
+  box-shadow: inset 10px -10px 20px #f0f0f0, inset -10px 10px 20px #f0f0f0;
 }
-
-.inner-shadow-intensity-extra {
-  box-shadow: inset 10px 10px 20px 0px #575757, inset -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-close.dir-bottom-right {
+  box-shadow: inset -10px -10px 20px #f0f0f0, inset 10px 10px 20px #f0f0f0;
 }
-
-.outer-shadow-intensity-extra {
-  box-shadow: 10px 10px 20px 0px #575757, -10px -10px 20px 0px white;
+.neu-shadow.pressed.i-lighter.d-normal.dir-top-left {
+  box-shadow: inset 15px 15px 30px #f0f0f0, inset -15px -15px 30px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-normal.dir-top-right {
+  box-shadow: inset -15px 15px 30px #f0f0f0, inset 15px -15px 30px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-normal.dir-bottom-left {
+  box-shadow: inset 15px -15px 30px #f0f0f0, inset -15px 15px 30px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-normal.dir-bottom-right {
+  box-shadow: inset -15px -15px 30px #f0f0f0, inset 15px 15px 30px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-far.dir-top-left {
+  box-shadow: inset 20px 20px 40px #f0f0f0, inset -20px -20px 40px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-far.dir-top-right {
+  box-shadow: inset -20px 20px 40px #f0f0f0, inset 20px -20px 40px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-far.dir-bottom-left {
+  box-shadow: inset 20px -20px 40px #f0f0f0, inset -20px 20px 40px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-far.dir-bottom-right {
+  box-shadow: inset -20px -20px 40px #f0f0f0, inset 20px 20px 40px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-further.dir-top-left {
+  box-shadow: inset 25px 25px 50px #f0f0f0, inset -25px -25px 50px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-further.dir-top-right {
+  box-shadow: inset -25px 25px 50px #f0f0f0, inset 25px -25px 50px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-further.dir-bottom-left {
+  box-shadow: inset 25px -25px 50px #f0f0f0, inset -25px 25px 50px #f0f0f0;
+}
+.neu-shadow.pressed.i-lighter.d-further.dir-bottom-right {
+  box-shadow: inset -25px -25px 50px #f0f0f0, inset 25px 25px 50px #f0f0f0;
+}
+.neu-shadow.pressed.i-light.d-closer.dir-top-left {
+  box-shadow: inset 5px 5px 10px #cacaca, inset -5px -5px 10px white;
+}
+.neu-shadow.pressed.i-light.d-closer.dir-top-right {
+  box-shadow: inset -5px 5px 10px #cacaca, inset 5px -5px 10px white;
+}
+.neu-shadow.pressed.i-light.d-closer.dir-bottom-left {
+  box-shadow: inset 5px -5px 10px #cacaca, inset -5px 5px 10px white;
+}
+.neu-shadow.pressed.i-light.d-closer.dir-bottom-right {
+  box-shadow: inset -5px -5px 10px #cacaca, inset 5px 5px 10px white;
+}
+.neu-shadow.pressed.i-light.d-close.dir-top-left {
+  box-shadow: inset 10px 10px 20px #cacaca, inset -10px -10px 20px white;
+}
+.neu-shadow.pressed.i-light.d-close.dir-top-right {
+  box-shadow: inset -10px 10px 20px #cacaca, inset 10px -10px 20px white;
+}
+.neu-shadow.pressed.i-light.d-close.dir-bottom-left {
+  box-shadow: inset 10px -10px 20px #cacaca, inset -10px 10px 20px white;
+}
+.neu-shadow.pressed.i-light.d-close.dir-bottom-right {
+  box-shadow: inset -10px -10px 20px #cacaca, inset 10px 10px 20px white;
+}
+.neu-shadow.pressed.i-light.d-normal.dir-top-left {
+  box-shadow: inset 15px 15px 30px #cacaca, inset -15px -15px 30px white;
+}
+.neu-shadow.pressed.i-light.d-normal.dir-top-right {
+  box-shadow: inset -15px 15px 30px #cacaca, inset 15px -15px 30px white;
+}
+.neu-shadow.pressed.i-light.d-normal.dir-bottom-left {
+  box-shadow: inset 15px -15px 30px #cacaca, inset -15px 15px 30px white;
+}
+.neu-shadow.pressed.i-light.d-normal.dir-bottom-right {
+  box-shadow: inset -15px -15px 30px #cacaca, inset 15px 15px 30px white;
+}
+.neu-shadow.pressed.i-light.d-far.dir-top-left {
+  box-shadow: inset 20px 20px 40px #cacaca, inset -20px -20px 40px white;
+}
+.neu-shadow.pressed.i-light.d-far.dir-top-right {
+  box-shadow: inset -20px 20px 40px #cacaca, inset 20px -20px 40px white;
+}
+.neu-shadow.pressed.i-light.d-far.dir-bottom-left {
+  box-shadow: inset 20px -20px 40px #cacaca, inset -20px 20px 40px white;
+}
+.neu-shadow.pressed.i-light.d-far.dir-bottom-right {
+  box-shadow: inset -20px -20px 40px #cacaca, inset 20px 20px 40px white;
+}
+.neu-shadow.pressed.i-light.d-further.dir-top-left {
+  box-shadow: inset 25px 25px 50px #cacaca, inset -25px -25px 50px white;
+}
+.neu-shadow.pressed.i-light.d-further.dir-top-right {
+  box-shadow: inset -25px 25px 50px #cacaca, inset 25px -25px 50px white;
+}
+.neu-shadow.pressed.i-light.d-further.dir-bottom-left {
+  box-shadow: inset 25px -25px 50px #cacaca, inset -25px 25px 50px white;
+}
+.neu-shadow.pressed.i-light.d-further.dir-bottom-right {
+  box-shadow: inset -25px -25px 50px #cacaca, inset 25px 25px 50px white;
+}
+.neu-shadow.pressed.i-normal.d-closer.dir-top-left {
+  box-shadow: inset 5px 5px 10px #a4a4a4, inset -5px -5px 10px white;
+}
+.neu-shadow.pressed.i-normal.d-closer.dir-top-right {
+  box-shadow: inset -5px 5px 10px #a4a4a4, inset 5px -5px 10px white;
+}
+.neu-shadow.pressed.i-normal.d-closer.dir-bottom-left {
+  box-shadow: inset 5px -5px 10px #a4a4a4, inset -5px 5px 10px white;
+}
+.neu-shadow.pressed.i-normal.d-closer.dir-bottom-right {
+  box-shadow: inset -5px -5px 10px #a4a4a4, inset 5px 5px 10px white;
+}
+.neu-shadow.pressed.i-normal.d-close.dir-top-left {
+  box-shadow: inset 10px 10px 20px #a4a4a4, inset -10px -10px 20px white;
+}
+.neu-shadow.pressed.i-normal.d-close.dir-top-right {
+  box-shadow: inset -10px 10px 20px #a4a4a4, inset 10px -10px 20px white;
+}
+.neu-shadow.pressed.i-normal.d-close.dir-bottom-left {
+  box-shadow: inset 10px -10px 20px #a4a4a4, inset -10px 10px 20px white;
+}
+.neu-shadow.pressed.i-normal.d-close.dir-bottom-right {
+  box-shadow: inset -10px -10px 20px #a4a4a4, inset 10px 10px 20px white;
+}
+.neu-shadow.pressed.i-normal.d-normal.dir-top-left {
+  box-shadow: inset 15px 15px 30px #a4a4a4, inset -15px -15px 30px white;
+}
+.neu-shadow.pressed.i-normal.d-normal.dir-top-right {
+  box-shadow: inset -15px 15px 30px #a4a4a4, inset 15px -15px 30px white;
+}
+.neu-shadow.pressed.i-normal.d-normal.dir-bottom-left {
+  box-shadow: inset 15px -15px 30px #a4a4a4, inset -15px 15px 30px white;
+}
+.neu-shadow.pressed.i-normal.d-normal.dir-bottom-right {
+  box-shadow: inset -15px -15px 30px #a4a4a4, inset 15px 15px 30px white;
+}
+.neu-shadow.pressed.i-normal.d-far.dir-top-left {
+  box-shadow: inset 20px 20px 40px #a4a4a4, inset -20px -20px 40px white;
+}
+.neu-shadow.pressed.i-normal.d-far.dir-top-right {
+  box-shadow: inset -20px 20px 40px #a4a4a4, inset 20px -20px 40px white;
+}
+.neu-shadow.pressed.i-normal.d-far.dir-bottom-left {
+  box-shadow: inset 20px -20px 40px #a4a4a4, inset -20px 20px 40px white;
+}
+.neu-shadow.pressed.i-normal.d-far.dir-bottom-right {
+  box-shadow: inset -20px -20px 40px #a4a4a4, inset 20px 20px 40px white;
+}
+.neu-shadow.pressed.i-normal.d-further.dir-top-left {
+  box-shadow: inset 25px 25px 50px #a4a4a4, inset -25px -25px 50px white;
+}
+.neu-shadow.pressed.i-normal.d-further.dir-top-right {
+  box-shadow: inset -25px 25px 50px #a4a4a4, inset 25px -25px 50px white;
+}
+.neu-shadow.pressed.i-normal.d-further.dir-bottom-left {
+  box-shadow: inset 25px -25px 50px #a4a4a4, inset -25px 25px 50px white;
+}
+.neu-shadow.pressed.i-normal.d-further.dir-bottom-right {
+  box-shadow: inset -25px -25px 50px #a4a4a4, inset 25px 25px 50px white;
+}
+.neu-shadow.pressed.i-hard.d-closer.dir-top-left {
+  box-shadow: inset 5px 5px 10px #7d7d7d, inset -5px -5px 10px white;
+}
+.neu-shadow.pressed.i-hard.d-closer.dir-top-right {
+  box-shadow: inset -5px 5px 10px #7d7d7d, inset 5px -5px 10px white;
+}
+.neu-shadow.pressed.i-hard.d-closer.dir-bottom-left {
+  box-shadow: inset 5px -5px 10px #7d7d7d, inset -5px 5px 10px white;
+}
+.neu-shadow.pressed.i-hard.d-closer.dir-bottom-right {
+  box-shadow: inset -5px -5px 10px #7d7d7d, inset 5px 5px 10px white;
+}
+.neu-shadow.pressed.i-hard.d-close.dir-top-left {
+  box-shadow: inset 10px 10px 20px #7d7d7d, inset -10px -10px 20px white;
+}
+.neu-shadow.pressed.i-hard.d-close.dir-top-right {
+  box-shadow: inset -10px 10px 20px #7d7d7d, inset 10px -10px 20px white;
+}
+.neu-shadow.pressed.i-hard.d-close.dir-bottom-left {
+  box-shadow: inset 10px -10px 20px #7d7d7d, inset -10px 10px 20px white;
+}
+.neu-shadow.pressed.i-hard.d-close.dir-bottom-right {
+  box-shadow: inset -10px -10px 20px #7d7d7d, inset 10px 10px 20px white;
+}
+.neu-shadow.pressed.i-hard.d-normal.dir-top-left {
+  box-shadow: inset 15px 15px 30px #7d7d7d, inset -15px -15px 30px white;
+}
+.neu-shadow.pressed.i-hard.d-normal.dir-top-right {
+  box-shadow: inset -15px 15px 30px #7d7d7d, inset 15px -15px 30px white;
+}
+.neu-shadow.pressed.i-hard.d-normal.dir-bottom-left {
+  box-shadow: inset 15px -15px 30px #7d7d7d, inset -15px 15px 30px white;
+}
+.neu-shadow.pressed.i-hard.d-normal.dir-bottom-right {
+  box-shadow: inset -15px -15px 30px #7d7d7d, inset 15px 15px 30px white;
+}
+.neu-shadow.pressed.i-hard.d-far.dir-top-left {
+  box-shadow: inset 20px 20px 40px #7d7d7d, inset -20px -20px 40px white;
+}
+.neu-shadow.pressed.i-hard.d-far.dir-top-right {
+  box-shadow: inset -20px 20px 40px #7d7d7d, inset 20px -20px 40px white;
+}
+.neu-shadow.pressed.i-hard.d-far.dir-bottom-left {
+  box-shadow: inset 20px -20px 40px #7d7d7d, inset -20px 20px 40px white;
+}
+.neu-shadow.pressed.i-hard.d-far.dir-bottom-right {
+  box-shadow: inset -20px -20px 40px #7d7d7d, inset 20px 20px 40px white;
+}
+.neu-shadow.pressed.i-hard.d-further.dir-top-left {
+  box-shadow: inset 25px 25px 50px #7d7d7d, inset -25px -25px 50px white;
+}
+.neu-shadow.pressed.i-hard.d-further.dir-top-right {
+  box-shadow: inset -25px 25px 50px #7d7d7d, inset 25px -25px 50px white;
+}
+.neu-shadow.pressed.i-hard.d-further.dir-bottom-left {
+  box-shadow: inset 25px -25px 50px #7d7d7d, inset -25px 25px 50px white;
+}
+.neu-shadow.pressed.i-hard.d-further.dir-bottom-right {
+  box-shadow: inset -25px -25px 50px #7d7d7d, inset 25px 25px 50px white;
+}
+.neu-shadow.pressed.i-harder.d-closer.dir-top-left {
+  box-shadow: inset 5px 5px 10px #575757, inset -5px -5px 10px white;
+}
+.neu-shadow.pressed.i-harder.d-closer.dir-top-right {
+  box-shadow: inset -5px 5px 10px #575757, inset 5px -5px 10px white;
+}
+.neu-shadow.pressed.i-harder.d-closer.dir-bottom-left {
+  box-shadow: inset 5px -5px 10px #575757, inset -5px 5px 10px white;
+}
+.neu-shadow.pressed.i-harder.d-closer.dir-bottom-right {
+  box-shadow: inset -5px -5px 10px #575757, inset 5px 5px 10px white;
+}
+.neu-shadow.pressed.i-harder.d-close.dir-top-left {
+  box-shadow: inset 10px 10px 20px #575757, inset -10px -10px 20px white;
+}
+.neu-shadow.pressed.i-harder.d-close.dir-top-right {
+  box-shadow: inset -10px 10px 20px #575757, inset 10px -10px 20px white;
+}
+.neu-shadow.pressed.i-harder.d-close.dir-bottom-left {
+  box-shadow: inset 10px -10px 20px #575757, inset -10px 10px 20px white;
+}
+.neu-shadow.pressed.i-harder.d-close.dir-bottom-right {
+  box-shadow: inset -10px -10px 20px #575757, inset 10px 10px 20px white;
+}
+.neu-shadow.pressed.i-harder.d-normal.dir-top-left {
+  box-shadow: inset 15px 15px 30px #575757, inset -15px -15px 30px white;
+}
+.neu-shadow.pressed.i-harder.d-normal.dir-top-right {
+  box-shadow: inset -15px 15px 30px #575757, inset 15px -15px 30px white;
+}
+.neu-shadow.pressed.i-harder.d-normal.dir-bottom-left {
+  box-shadow: inset 15px -15px 30px #575757, inset -15px 15px 30px white;
+}
+.neu-shadow.pressed.i-harder.d-normal.dir-bottom-right {
+  box-shadow: inset -15px -15px 30px #575757, inset 15px 15px 30px white;
+}
+.neu-shadow.pressed.i-harder.d-far.dir-top-left {
+  box-shadow: inset 20px 20px 40px #575757, inset -20px -20px 40px white;
+}
+.neu-shadow.pressed.i-harder.d-far.dir-top-right {
+  box-shadow: inset -20px 20px 40px #575757, inset 20px -20px 40px white;
+}
+.neu-shadow.pressed.i-harder.d-far.dir-bottom-left {
+  box-shadow: inset 20px -20px 40px #575757, inset -20px 20px 40px white;
+}
+.neu-shadow.pressed.i-harder.d-far.dir-bottom-right {
+  box-shadow: inset -20px -20px 40px #575757, inset 20px 20px 40px white;
+}
+.neu-shadow.pressed.i-harder.d-further.dir-top-left {
+  box-shadow: inset 25px 25px 50px #575757, inset -25px -25px 50px white;
+}
+.neu-shadow.pressed.i-harder.d-further.dir-top-right {
+  box-shadow: inset -25px 25px 50px #575757, inset 25px -25px 50px white;
+}
+.neu-shadow.pressed.i-harder.d-further.dir-bottom-left {
+  box-shadow: inset 25px -25px 50px #575757, inset -25px 25px 50px white;
+}
+.neu-shadow.pressed.i-harder.d-further.dir-bottom-right {
+  box-shadow: inset -25px -25px 50px #575757, inset 25px 25px 50px white;
+}
+.neu-shadow.raised.i-lighter.d-closer.dir-top-left {
+  box-shadow: 5px 5px 10px #f0f0f0, -5px -5px 10px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-closer.dir-top-right {
+  box-shadow: -5px 5px 10px #f0f0f0, 5px -5px 10px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-closer.dir-bottom-left {
+  box-shadow: 5px -5px 10px #f0f0f0, -5px 5px 10px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-closer.dir-bottom-right {
+  box-shadow: -5px -5px 10px #f0f0f0, 5px 5px 10px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-close.dir-top-left {
+  box-shadow: 10px 10px 20px #f0f0f0, -10px -10px 20px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-close.dir-top-right {
+  box-shadow: -10px 10px 20px #f0f0f0, 10px -10px 20px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-close.dir-bottom-left {
+  box-shadow: 10px -10px 20px #f0f0f0, -10px 10px 20px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-close.dir-bottom-right {
+  box-shadow: -10px -10px 20px #f0f0f0, 10px 10px 20px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-normal.dir-top-left {
+  box-shadow: 15px 15px 30px #f0f0f0, -15px -15px 30px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-normal.dir-top-right {
+  box-shadow: -15px 15px 30px #f0f0f0, 15px -15px 30px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-normal.dir-bottom-left {
+  box-shadow: 15px -15px 30px #f0f0f0, -15px 15px 30px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-normal.dir-bottom-right {
+  box-shadow: -15px -15px 30px #f0f0f0, 15px 15px 30px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-far.dir-top-left {
+  box-shadow: 20px 20px 40px #f0f0f0, -20px -20px 40px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-far.dir-top-right {
+  box-shadow: -20px 20px 40px #f0f0f0, 20px -20px 40px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-far.dir-bottom-left {
+  box-shadow: 20px -20px 40px #f0f0f0, -20px 20px 40px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-far.dir-bottom-right {
+  box-shadow: -20px -20px 40px #f0f0f0, 20px 20px 40px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-further.dir-top-left {
+  box-shadow: 25px 25px 50px #f0f0f0, -25px -25px 50px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-further.dir-top-right {
+  box-shadow: -25px 25px 50px #f0f0f0, 25px -25px 50px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-further.dir-bottom-left {
+  box-shadow: 25px -25px 50px #f0f0f0, -25px 25px 50px #f0f0f0;
+}
+.neu-shadow.raised.i-lighter.d-further.dir-bottom-right {
+  box-shadow: -25px -25px 50px #f0f0f0, 25px 25px 50px #f0f0f0;
+}
+.neu-shadow.raised.i-light.d-closer.dir-top-left {
+  box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px white;
+}
+.neu-shadow.raised.i-light.d-closer.dir-top-right {
+  box-shadow: -5px 5px 10px #cacaca, 5px -5px 10px white;
+}
+.neu-shadow.raised.i-light.d-closer.dir-bottom-left {
+  box-shadow: 5px -5px 10px #cacaca, -5px 5px 10px white;
+}
+.neu-shadow.raised.i-light.d-closer.dir-bottom-right {
+  box-shadow: -5px -5px 10px #cacaca, 5px 5px 10px white;
+}
+.neu-shadow.raised.i-light.d-close.dir-top-left {
+  box-shadow: 10px 10px 20px #cacaca, -10px -10px 20px white;
+}
+.neu-shadow.raised.i-light.d-close.dir-top-right {
+  box-shadow: -10px 10px 20px #cacaca, 10px -10px 20px white;
+}
+.neu-shadow.raised.i-light.d-close.dir-bottom-left {
+  box-shadow: 10px -10px 20px #cacaca, -10px 10px 20px white;
+}
+.neu-shadow.raised.i-light.d-close.dir-bottom-right {
+  box-shadow: -10px -10px 20px #cacaca, 10px 10px 20px white;
+}
+.neu-shadow.raised.i-light.d-normal.dir-top-left {
+  box-shadow: 15px 15px 30px #cacaca, -15px -15px 30px white;
+}
+.neu-shadow.raised.i-light.d-normal.dir-top-right {
+  box-shadow: -15px 15px 30px #cacaca, 15px -15px 30px white;
+}
+.neu-shadow.raised.i-light.d-normal.dir-bottom-left {
+  box-shadow: 15px -15px 30px #cacaca, -15px 15px 30px white;
+}
+.neu-shadow.raised.i-light.d-normal.dir-bottom-right {
+  box-shadow: -15px -15px 30px #cacaca, 15px 15px 30px white;
+}
+.neu-shadow.raised.i-light.d-far.dir-top-left {
+  box-shadow: 20px 20px 40px #cacaca, -20px -20px 40px white;
+}
+.neu-shadow.raised.i-light.d-far.dir-top-right {
+  box-shadow: -20px 20px 40px #cacaca, 20px -20px 40px white;
+}
+.neu-shadow.raised.i-light.d-far.dir-bottom-left {
+  box-shadow: 20px -20px 40px #cacaca, -20px 20px 40px white;
+}
+.neu-shadow.raised.i-light.d-far.dir-bottom-right {
+  box-shadow: -20px -20px 40px #cacaca, 20px 20px 40px white;
+}
+.neu-shadow.raised.i-light.d-further.dir-top-left {
+  box-shadow: 25px 25px 50px #cacaca, -25px -25px 50px white;
+}
+.neu-shadow.raised.i-light.d-further.dir-top-right {
+  box-shadow: -25px 25px 50px #cacaca, 25px -25px 50px white;
+}
+.neu-shadow.raised.i-light.d-further.dir-bottom-left {
+  box-shadow: 25px -25px 50px #cacaca, -25px 25px 50px white;
+}
+.neu-shadow.raised.i-light.d-further.dir-bottom-right {
+  box-shadow: -25px -25px 50px #cacaca, 25px 25px 50px white;
+}
+.neu-shadow.raised.i-normal.d-closer.dir-top-left {
+  box-shadow: 5px 5px 10px #a4a4a4, -5px -5px 10px white;
+}
+.neu-shadow.raised.i-normal.d-closer.dir-top-right {
+  box-shadow: -5px 5px 10px #a4a4a4, 5px -5px 10px white;
+}
+.neu-shadow.raised.i-normal.d-closer.dir-bottom-left {
+  box-shadow: 5px -5px 10px #a4a4a4, -5px 5px 10px white;
+}
+.neu-shadow.raised.i-normal.d-closer.dir-bottom-right {
+  box-shadow: -5px -5px 10px #a4a4a4, 5px 5px 10px white;
+}
+.neu-shadow.raised.i-normal.d-close.dir-top-left {
+  box-shadow: 10px 10px 20px #a4a4a4, -10px -10px 20px white;
+}
+.neu-shadow.raised.i-normal.d-close.dir-top-right {
+  box-shadow: -10px 10px 20px #a4a4a4, 10px -10px 20px white;
+}
+.neu-shadow.raised.i-normal.d-close.dir-bottom-left {
+  box-shadow: 10px -10px 20px #a4a4a4, -10px 10px 20px white;
+}
+.neu-shadow.raised.i-normal.d-close.dir-bottom-right {
+  box-shadow: -10px -10px 20px #a4a4a4, 10px 10px 20px white;
+}
+.neu-shadow.raised.i-normal.d-normal.dir-top-left {
+  box-shadow: 15px 15px 30px #a4a4a4, -15px -15px 30px white;
+}
+.neu-shadow.raised.i-normal.d-normal.dir-top-right {
+  box-shadow: -15px 15px 30px #a4a4a4, 15px -15px 30px white;
+}
+.neu-shadow.raised.i-normal.d-normal.dir-bottom-left {
+  box-shadow: 15px -15px 30px #a4a4a4, -15px 15px 30px white;
+}
+.neu-shadow.raised.i-normal.d-normal.dir-bottom-right {
+  box-shadow: -15px -15px 30px #a4a4a4, 15px 15px 30px white;
+}
+.neu-shadow.raised.i-normal.d-far.dir-top-left {
+  box-shadow: 20px 20px 40px #a4a4a4, -20px -20px 40px white;
+}
+.neu-shadow.raised.i-normal.d-far.dir-top-right {
+  box-shadow: -20px 20px 40px #a4a4a4, 20px -20px 40px white;
+}
+.neu-shadow.raised.i-normal.d-far.dir-bottom-left {
+  box-shadow: 20px -20px 40px #a4a4a4, -20px 20px 40px white;
+}
+.neu-shadow.raised.i-normal.d-far.dir-bottom-right {
+  box-shadow: -20px -20px 40px #a4a4a4, 20px 20px 40px white;
+}
+.neu-shadow.raised.i-normal.d-further.dir-top-left {
+  box-shadow: 25px 25px 50px #a4a4a4, -25px -25px 50px white;
+}
+.neu-shadow.raised.i-normal.d-further.dir-top-right {
+  box-shadow: -25px 25px 50px #a4a4a4, 25px -25px 50px white;
+}
+.neu-shadow.raised.i-normal.d-further.dir-bottom-left {
+  box-shadow: 25px -25px 50px #a4a4a4, -25px 25px 50px white;
+}
+.neu-shadow.raised.i-normal.d-further.dir-bottom-right {
+  box-shadow: -25px -25px 50px #a4a4a4, 25px 25px 50px white;
+}
+.neu-shadow.raised.i-hard.d-closer.dir-top-left {
+  box-shadow: 5px 5px 10px #7d7d7d, -5px -5px 10px white;
+}
+.neu-shadow.raised.i-hard.d-closer.dir-top-right {
+  box-shadow: -5px 5px 10px #7d7d7d, 5px -5px 10px white;
+}
+.neu-shadow.raised.i-hard.d-closer.dir-bottom-left {
+  box-shadow: 5px -5px 10px #7d7d7d, -5px 5px 10px white;
+}
+.neu-shadow.raised.i-hard.d-closer.dir-bottom-right {
+  box-shadow: -5px -5px 10px #7d7d7d, 5px 5px 10px white;
+}
+.neu-shadow.raised.i-hard.d-close.dir-top-left {
+  box-shadow: 10px 10px 20px #7d7d7d, -10px -10px 20px white;
+}
+.neu-shadow.raised.i-hard.d-close.dir-top-right {
+  box-shadow: -10px 10px 20px #7d7d7d, 10px -10px 20px white;
+}
+.neu-shadow.raised.i-hard.d-close.dir-bottom-left {
+  box-shadow: 10px -10px 20px #7d7d7d, -10px 10px 20px white;
+}
+.neu-shadow.raised.i-hard.d-close.dir-bottom-right {
+  box-shadow: -10px -10px 20px #7d7d7d, 10px 10px 20px white;
+}
+.neu-shadow.raised.i-hard.d-normal.dir-top-left {
+  box-shadow: 15px 15px 30px #7d7d7d, -15px -15px 30px white;
+}
+.neu-shadow.raised.i-hard.d-normal.dir-top-right {
+  box-shadow: -15px 15px 30px #7d7d7d, 15px -15px 30px white;
+}
+.neu-shadow.raised.i-hard.d-normal.dir-bottom-left {
+  box-shadow: 15px -15px 30px #7d7d7d, -15px 15px 30px white;
+}
+.neu-shadow.raised.i-hard.d-normal.dir-bottom-right {
+  box-shadow: -15px -15px 30px #7d7d7d, 15px 15px 30px white;
+}
+.neu-shadow.raised.i-hard.d-far.dir-top-left {
+  box-shadow: 20px 20px 40px #7d7d7d, -20px -20px 40px white;
+}
+.neu-shadow.raised.i-hard.d-far.dir-top-right {
+  box-shadow: -20px 20px 40px #7d7d7d, 20px -20px 40px white;
+}
+.neu-shadow.raised.i-hard.d-far.dir-bottom-left {
+  box-shadow: 20px -20px 40px #7d7d7d, -20px 20px 40px white;
+}
+.neu-shadow.raised.i-hard.d-far.dir-bottom-right {
+  box-shadow: -20px -20px 40px #7d7d7d, 20px 20px 40px white;
+}
+.neu-shadow.raised.i-hard.d-further.dir-top-left {
+  box-shadow: 25px 25px 50px #7d7d7d, -25px -25px 50px white;
+}
+.neu-shadow.raised.i-hard.d-further.dir-top-right {
+  box-shadow: -25px 25px 50px #7d7d7d, 25px -25px 50px white;
+}
+.neu-shadow.raised.i-hard.d-further.dir-bottom-left {
+  box-shadow: 25px -25px 50px #7d7d7d, -25px 25px 50px white;
+}
+.neu-shadow.raised.i-hard.d-further.dir-bottom-right {
+  box-shadow: -25px -25px 50px #7d7d7d, 25px 25px 50px white;
+}
+.neu-shadow.raised.i-harder.d-closer.dir-top-left {
+  box-shadow: 5px 5px 10px #575757, -5px -5px 10px white;
+}
+.neu-shadow.raised.i-harder.d-closer.dir-top-right {
+  box-shadow: -5px 5px 10px #575757, 5px -5px 10px white;
+}
+.neu-shadow.raised.i-harder.d-closer.dir-bottom-left {
+  box-shadow: 5px -5px 10px #575757, -5px 5px 10px white;
+}
+.neu-shadow.raised.i-harder.d-closer.dir-bottom-right {
+  box-shadow: -5px -5px 10px #575757, 5px 5px 10px white;
+}
+.neu-shadow.raised.i-harder.d-close.dir-top-left {
+  box-shadow: 10px 10px 20px #575757, -10px -10px 20px white;
+}
+.neu-shadow.raised.i-harder.d-close.dir-top-right {
+  box-shadow: -10px 10px 20px #575757, 10px -10px 20px white;
+}
+.neu-shadow.raised.i-harder.d-close.dir-bottom-left {
+  box-shadow: 10px -10px 20px #575757, -10px 10px 20px white;
+}
+.neu-shadow.raised.i-harder.d-close.dir-bottom-right {
+  box-shadow: -10px -10px 20px #575757, 10px 10px 20px white;
+}
+.neu-shadow.raised.i-harder.d-normal.dir-top-left {
+  box-shadow: 15px 15px 30px #575757, -15px -15px 30px white;
+}
+.neu-shadow.raised.i-harder.d-normal.dir-top-right {
+  box-shadow: -15px 15px 30px #575757, 15px -15px 30px white;
+}
+.neu-shadow.raised.i-harder.d-normal.dir-bottom-left {
+  box-shadow: 15px -15px 30px #575757, -15px 15px 30px white;
+}
+.neu-shadow.raised.i-harder.d-normal.dir-bottom-right {
+  box-shadow: -15px -15px 30px #575757, 15px 15px 30px white;
+}
+.neu-shadow.raised.i-harder.d-far.dir-top-left {
+  box-shadow: 20px 20px 40px #575757, -20px -20px 40px white;
+}
+.neu-shadow.raised.i-harder.d-far.dir-top-right {
+  box-shadow: -20px 20px 40px #575757, 20px -20px 40px white;
+}
+.neu-shadow.raised.i-harder.d-far.dir-bottom-left {
+  box-shadow: 20px -20px 40px #575757, -20px 20px 40px white;
+}
+.neu-shadow.raised.i-harder.d-far.dir-bottom-right {
+  box-shadow: -20px -20px 40px #575757, 20px 20px 40px white;
+}
+.neu-shadow.raised.i-harder.d-further.dir-top-left {
+  box-shadow: 25px 25px 50px #575757, -25px -25px 50px white;
+}
+.neu-shadow.raised.i-harder.d-further.dir-top-right {
+  box-shadow: -25px 25px 50px #575757, 25px -25px 50px white;
+}
+.neu-shadow.raised.i-harder.d-further.dir-bottom-left {
+  box-shadow: 25px -25px 50px #575757, -25px 25px 50px white;
+}
+.neu-shadow.raised.i-harder.d-further.dir-bottom-right {
+  box-shadow: -25px -25px 50px #575757, 25px 25px 50px white;
 }
 
 .bg-primary {
@@ -63,6 +628,10 @@
 }
 
 .bg-base {
+  background-color: #F0F0F0;
+}
+
+html {
   background-color: #F0F0F0;
 }
 

@@ -3,15 +3,10 @@ $prefix: plasmium- !important;
 $variables-prefix: $prefix  !important;
 
 // Neumorphism shadow setting
-$inner-shadow-h-offset: 10px;
-$inner-shadow-v-offset: 10px;
-$inner-shadow-blur:     20px;
-$inner-shadow-spread-radius: 0px;
-
-$outer-shadow-h-offset: 10px;
-$outer-shadow-v-offset: 10px;
-$outer-shadow-blur:     20px;
-$outer-shadow-spread-radius: 0px;
+$default_shadow_distance: "normal";
+$default_shadow_intensity: "normal";
+$default_shadow_type: "raised";
+$default_shadow_direction: "direction";
 
 // Colors
 $primary: #7188B4;

@@ -1,12 +1,93 @@
-@each $name,$intensity in $shadow-intensity {
-  .inner-shadow-intensity-#{$name} {
-    box-shadow:
-      inset $inner-shadow-h-offset $inner-shadow-v-offset $inner-shadow-blur $inner-shadow-spread-radius darken($base, $intensity),
-      inset (-$inner-shadow-h-offset) (-$inner-shadow-v-offset) $inner-shadow-blur $inner-shadow-spread-radius lighten($base, $intensity);
-  }
-  .outer-shadow-intensity-#{$name} {
-    box-shadow:
-      $outer-shadow-h-offset $outer-shadow-v-offset $outer-shadow-blur $outer-shadow-spread-radius darken($base, $intensity),
-      (-$outer-shadow-h-offset) (-$outer-shadow-v-offset) $outer-shadow-blur $outer-shadow-spread-radius lighten($base, $intensity);
+@use "sass:map";
+
+// Shadow intensity
+$shadow-intensity: (
+  "lighter": 0,
+  "light": 15%,
+  "normal": 30%,
+  "hard": 45%,
+  "harder": 60%
+) !default;
+
+// Shadow distance
+$shadow-distance: (
+  "closer": 5px,
+  "close": 10px,
+  "normal": 15px,
+  "far": 20px,
+  "further": 25px
+) !default;
+
+// Shadow type
+$shadow-type: (
+  "pressed": inset,
+  "raised": null
+) !default;
+
+// Shadow direction
+$shadow-direction: (
+  "top-left": (
+    "light-h-param": -1,
+    "light-v-param": -1,
+    "dark-h-param": 1,
+    "dark-v-param": 1
+  ),
+  "top-right": (
+    "light-h-param": 1,
+    "light-v-param": -1,
+    "dark-h-param": -1,
+    "dark-v-param": 1
+  ),
+  "bottom-left": (
+    "light-h-param": -1,
+    "light-v-param": 1,
+    "dark-h-param": 1,
+    "dark-v-param": -1
+  ),
+  "bottom-right": (
+    "light-h-param": 1,
+    "light-v-param": 1,
+    "dark-h-param": -1,
+    "dark-v-param": -1
+  )
+) !default;
+
+// Default variables
+$distance: map.get($shadow-distance, "normal");
+$intensity: map.get($shadow-intensity, "normal");
+$type: map.get($shadow-type, "raised");
+$direction: map.get($shadow-direction, "top-left");
+
+// Generating finction
+@function neu-shadow($distance, $intensity, $type, $direction) {
+  $light-h-param: map.get($direction, "light-h-param");
+  $light-v-param: map.get($direction, "light-v-param");
+  $dark-h-param: map.get($direction, "dark-h-param");
+  $dark-v-param: map.get($direction, "dark-v-param");
+  @return $type $dark-h-param*$distance $dark-v-param*$distance 2*$distance darken($base, $intensity), $type $light-h-param*$distance $light-v-param*$distance 2*$distance lighten($base, $intensity);
+}
+
+@function neu-shadow-name($distance-name, $intensity-name, $type-name, $direction-name) {
+  $class-name: "&." + #{$type-name} + ".i-" + #{$intensity-name} + ".d-" + #{$distance-name} + ".dir-" + #{$direction-name};
+  @return $class-name;
+}
+
+// No settings
+.neu-shadow {
+  box-shadow: neu-shadow($distance, $intensity, $type, $direction);
+}
+
+// 4 settings
+.neu-shadow {
+  @each $type-name, $type in $shadow-type {
+    @each $intensity-name, $intensity in $shadow-intensity {
+      @each $distance-name, $distance in $shadow-distance {
+        @each $direction-name, $direction in $shadow-direction {
+          #{neu-shadow-name($distance-name, $intensity-name, $type-name, $direction-name)} {
+            box-shadow: neu-shadow($distance, $intensity, $type, $direction);
+          }
+        }
+      }
+    }
   }
 }

@@ -1,6 +1,7 @@
 export default {
   title: 'Numo UI',
   description: 'Just playing around.',
+  base: '/numo-ui/',
   appearance: false,  
   themeConfig: {
     sidebar: [
